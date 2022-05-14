@@ -1,5 +1,6 @@
 package base.dynamicProgramming;
 
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -29,6 +30,7 @@ public class CanSum {
         }
 
         map.put(targetSum,false);
+
         return false;
     }
 }
